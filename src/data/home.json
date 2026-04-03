@@ -1,0 +1,35 @@
+{
+  "agendaItems": [
+    { "id": "a1", "title": "Budget amendment FY2026", "status": "Action needed" },
+    { "id": "a2", "title": "Capital projects update Q1", "status": "Submitted" },
+    { "id": "a3", "title": "Policy revision 4.1.2", "status": "Draft" },
+    { "id": "a4", "title": "Staff recognition program", "status": "Approved" },
+    { "id": "a5", "title": "Community outreach initiative", "status": "Submitted" }
+  ],
+  "featuredPolicies": [
+    { "id": "p1", "title": "Board governance policy", "subtitle": "Section 2.4" },
+    { "id": "p2", "title": "Conflict of interest policy", "subtitle": "Section 7.1" }
+  ],
+  "featuredDocuments": [
+    { "id": "d1", "title": "Annual report 2025" },
+    { "id": "d2", "title": "Strategic plan 2025–2028" }
+  ],
+  "featuredGoals": [
+    { "id": "g1", "title": "Student achievement rate", "progress": 78 },
+    { "id": "g2", "title": "Budget utilization", "progress": 100 },
+    { "id": "g3", "title": "Community engagement index", "progress": 32 }
+  ],
+  "boardMembers": [
+    { "name": "Dr. Patricia Chen", "role": "Board president" },
+    { "name": "Marcus Williams", "role": "Vice president" },
+    { "name": "Sarah Johnson", "role": "Board member" },
+    { "name": "Robert Okafor", "role": "Board member" },
+    { "name": "Linda Torres", "role": "Board member" },
+    { "name": "James Huang", "role": "Board member" },
+    { "name": "Emily Nakamura", "role": "Board member" }
+  ],
+  "welcomeParagraphs": [
+    "The Emerald City School District Board of Education meets on the third Tuesday of each month at 6:30 PM in the district office board room, 1234 Emerald Avenue.",
+    "Public comment is accepted at the start of each meeting. Speakers must sign in by 6:15 PM and are allotted three minutes. Written comments may be submitted to board@ecsd.edu at least 24 hours prior to the meeting. Board packets are made available to the public 72 hours before each regular meeting."
+  ]
+}

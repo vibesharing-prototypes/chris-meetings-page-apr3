@@ -1,0 +1,59 @@
+@import "@diligentcorp/atlas-react-bundle/styles";
+@import "@diligentcorp/atlas-react-bundle/global-nav.css";
+
+/* Scale down all typography on the meetings page by ~2px */
+#page-meetings {
+  font-size: 0.875rem; /* base 14px → 12px feel */
+}
+#page-meetings h1,
+#page-meetings [class*="MuiTypography-h4"],
+#page-meetings [class*="MuiTypography-h5"],
+#page-meetings [class*="PageHeader"] h1 {
+  font-size: 1.375rem !important; /* ~22px down from 24px */
+}
+#page-meetings h2,
+#page-meetings [class*="MuiTypography-h6"] {
+  font-size: 1.0625rem !important; /* ~17px down from 19-20px */
+}
+#page-meetings [class*="MuiTypography-subtitle1"] {
+  font-size: 0.875rem !important; /* 14px down from 16px */
+}
+#page-meetings [class*="MuiTypography-subtitle2"] {
+  font-size: 0.8125rem !important; /* 13px down from 14-15px */
+}
+#page-meetings [class*="MuiTypography-body1"] {
+  font-size: 0.8125rem !important; /* 13px down from 15-16px */
+}
+#page-meetings [class*="MuiTypography-body2"] {
+  font-size: 0.75rem !important; /* 12px down from 14px */
+}
+#page-meetings [class*="MuiTypography-caption"] {
+  font-size: 0.6875rem !important; /* 11px down from 12-13px */
+}
+#page-meetings [class*="MuiTab-root"] {
+  font-size: 0.8125rem !important; /* 13px */
+}
+#page-meetings [class*="MuiButton-root"] {
+  font-size: 0.8125rem !important; /* 13px */
+}
+#page-meetings [class*="MuiInputBase-root"],
+#page-meetings [class*="MuiFormLabel-root"],
+#page-meetings [class*="MuiMenuItem-root"],
+#page-meetings [class*="MuiSelect-select"] {
+  font-size: 0.8125rem !important; /* 13px */
+}
+
+/* Toolbar controls — extra compact */
+#meetings-toolbar [class*="MuiFormLabel-root"] {
+  font-size: 0.6875rem !important; /* 11px */
+}
+#meetings-toolbar [class*="MuiInputBase-root"],
+#meetings-toolbar [class*="MuiSelect-select"],
+#meetings-toolbar input {
+  font-size: 0.75rem !important; /* 12px */
+  height: auto !important;
+}
+#meetings-toolbar [class*="MuiInputBase-root"] {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
